@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* app styles */
+.App {
+  max-width: 400px;
+  margin: 30px auto;
+  text-align: center;
+}
+.navDiv {
+  padding: 5px;
+}
+.navDiv ul {
+  padding: 0;
+}
+.navDiv ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.Home {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.Home ul{
+  padding: 0;
+  list-style-type: none;
+}
+.Home li {
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+/*Table Css*/
+.zui-table {
+  border: solid 1px #DDEEEE;
+  border-collapse: collapse;
+  border-spacing: 0;
+  font: normal 13px Arial, sans-serif;
+}
+.zui-table thead th {
+  background-color: #DDEFEF;
+  border: solid 1px #DDEEEE;
+  color: #336B6B;
+  padding: 10px;
+  text-align: left;
+  text-shadow: 1px 1px 1px #fff;
+}
+.zui-table tbody td {
+  border: solid 1px #DDEEEE;
+  color: #333;
+  padding: 10px;
+  text-shadow: 1px 1px 1px #fff;
+}

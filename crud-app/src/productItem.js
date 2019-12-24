@@ -12,7 +12,7 @@ class ProductItem extends React.Component{
     }
 
     onEdit() {
-        this.setState({
+        this.setState({ 
             isEdit: true
         })
     }
